@@ -1,323 +1,403 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Vishal Boruah | Project Manager / Business Analyst</title>
-  <meta name="description" content="Vishal Boruah — PMP Project Manager & Business Analyst. Turning complex work into measurable outcomes." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Product And Project Management Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+<!-- keep using the same styles.css file or your own copy -->
+<link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <header class="nav">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home">Vishal Boruah</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="#home">Vishal <span class="accent">Boruah</span></a>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#background">Background</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="nav-links" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#case-studies">Case Studies</a>
-        <a href="#background">Background</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="home">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="kicker">Project Manager • Business Analyst • PMP</p>
-          <h1>Turning complex projects into business clarity.</h1>
-          <p class="subhead">
-            PMP-certified project leader with experience across healthcare, public sector, and IT delivery—
-            driving measurable outcomes through stakeholder alignment, process improvement, and data-driven reporting.
-          </p>
-
-          <div class="cta-row">
-            <a class="btn primary" href="#case-studies">View Case Studies</a>
-            <a class="btn" href="#contact">Contact Me</a>
-          </div>
-
-          <div class="metrics" role="list">
-            <div class="metric" role="listitem">
-              <div class="metric-num">70+</div>
-              <div class="metric-label">Projects coordinated</div>
-            </div>
-            <div class="metric" role="listitem">
-              <div class="metric-num">30%</div>
-              <div class="metric-label">Efficiency lift delivered</div>
-            </div>
-            <div class="metric" role="listitem">
-              <div class="metric-num">0</div>
-              <div class="metric-label">HIPAA handling incidents</div>
-            </div>
-          </div>
+<main>
+  <!-- HERO -->
+  <section id="home" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="eyebrow">Product & Project Management Portfolio</span>
+        <h1>
+          Turning complex delivery into <span class="accent">business outcomes</span>.
+        </h1>
+        <p>
+          Product Owner and project delivery professional enabling measurable outcomes
+          through value‑driven roadmaps, stakeholder‑aligned execution, and adoption‑ready change.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#case-studies">View Case Studies</a>
+          <a class="btn btn-outline" href="#contact">Contact Me</a>
         </div>
-
-        <div class="hero-card">
-          <img class="avatar" src="assets/profile.png" alt="Vishal Boruah profile photo" />
-          <div class="hero-card-body">
-            <h2>Open to roles in</h2>
-            <p>Project Management • PMO • Business Analysis • Digital Transformation</p>
-            <div class="pill-row">
-              <span class="pill">Healthcare</span>
-              <span class="pill">Public Sector</span>
-              <span class="pill">IT Delivery</span>
-            </div>
+        <div class="hero-metrics">
+          <div class="metric">
+            <span class="metric-value">70+</span>
+            <span class="metric-label">Initiatives delivered</span>
+          </div>
+          <div class="metric">
+            <span class="metric-value">95%</span>
+            <span class="metric-label">On‑time outcomes</span>
+          </div>
+          <div class="metric">
+            <span class="metric-value">25%</span>
+            <span class="metric-label">Drop in incidents</span>
           </div>
         </div>
       </div>
-    </section>
+      <div class="hero-visual">
+        <div class="image-frame">
+          <!-- Replace src with your own headshot if you have one in the repo -->
+          <img
+            src="headshot.png"
+            alt="Profile portrait of Vishal Boruah"
+            draggable="false"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <p class="lead">Project leader focused on measurable impact.</p>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">About</p>
+        <h2>Product and project professional focused on outcome delivery.</h2>
+        <p class="section-subtitle">
+          I orchestrate cross‑functional teams, structure roadmaps, and govern risk so that projects
+          move from idea to adopted solution with clarity, control, and measurable impact.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="card about-card">
+          <h3>What I do</h3>
+          <p>
+            I own backlogs, define requirements, and coordinate stakeholders to deliver initiatives
+            on time and within scope, while enabling process improvements and change adoption across
+            healthcare, economic development, and security services.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Product Ownership</span>
+            <span class="tag">Project Management</span>
+            <span class="tag">Agile & Scrum</span>
+            <span class="tag">Change Management</span>
+            <span class="tag">Business Analysis</span>
+          </div>
+        </div>
+        <div class="card about-card">
+          <h3>Highlights</h3>
+          <ul class="check-list">
+            <li>Led delivery across 70+ initiatives with 95% on‑time outcomes at Advantmed LLC.</li>
+            <li>Improved schedule adherence by 20% by shaping product vision and roadmaps at GardaWorld.</li>
+            <li>Increased leadership visibility by 30% via dashboards and governance reporting at Burlington Economic Development.</li>
+            <li>Reduced operational incidents by 25% through structured risk and compliance management in regulated environments.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="two-col">
-          <div class="card">
-            <h3>What I do</h3>
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Skills</p>
+        <h2>Capabilities that drive delivery and change.</h2>
+        <p class="section-subtitle">
+          A blend of product ownership, project governance, and analytical thinking backed by modern tools.
+        </p>
+      </div>
+      <div class="skills-grid">
+        <div class="card skill-card">
+          <h3>Product & Delivery</h3>
+          <ul>
+            <li>Product backlog & roadmap ownership</li>
+            <li>Value‑based prioritization</li>
+            <li>Requirements & user stories</li>
+            <li>Business case development</li>
+          </ul>
+        </div>
+        <div class="card skill-card">
+          <h3>Project & Governance</h3>
+          <ul>
+            <li>Agile & Scrum delivery</li>
+            <li>Risk & issue management (RAID)</li>
+            <li>PMO governance & reporting</li>
+            <li>Process optimization & documentation</li>
+          </ul>
+        </div>
+        <div class="card skill-card">
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li>MS Project, Excel, PowerPoint, Word, Visio</li>
+            <li>Power BI, SharePoint, Tableau, Figma</li>
+            <li>JIRA, Confluence, Smartsheet, Planview</li>
+            <li>ServiceNow, Azure DevOps, ERP (Oracle, SAP), SQL</li>
+          </ul>
+        </div>
+        <div class="card skill-card">
+          <h3>Analysis & Insight</h3>
+          <ul>
+            <li>Data‑driven decision making</li>
+            <li>KPI & dashboard design</li>
+            <li>Reporting & performance tracking</li>
+            <li>Research methods & feedback loops</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES (ADAPTED TO YOUR WORK) -->
+  <section id="case-studies" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Case Studies</p>
+        <h2>Selected initiatives with measurable impact.</h2>
+        <p class="section-subtitle">
+          Examples of how I aligned stakeholders, governed risk, and delivered outcomes across industries.
+        </p>
+      </div>
+
+      <div class="impact-grid">
+        <div class="card impact-card">
+          <h4>Delivery reliability</h4>
+          <p>Coordinated 70+ initiatives with 95% on‑time completion across healthcare projects.</p>
+        </div>
+        <div class="card impact-card">
+          <h4>Compliance & risk</h4>
+          <p>Reduced operational and compliance incidents by 25% through structured risk management.</p>
+        </div>
+        <div class="card impact-card">
+          <h4>Stakeholder visibility</h4>
+          <p>Improved leadership visibility by 30% with dashboards and governance artifacts.</p>
+        </div>
+      </div>
+
+      <div class="case-grid">
+        <article class="card case-card">
+          <div class="case-header">
+            <p class="eyebrow">Case Study 01</p>
+            <h3>Healthcare portfolio delivery & risk reduction</h3>
+          </div>
+          <p>
+            At Advantmed LLC, coordinated delivery across 70+ initiatives in regulated healthcare,
+            owning backlogs, sequencing work, and refining requirements. Strengthened risk and
+            compliance governance, reducing operational incidents by 25% and achieving 95% on‑time outcomes.
+          </p>
+          <div class="kpi-list">
+            <span class="kpi-pill">70+ initiatives</span>
+            <span class="kpi-pill">95% on‑time</span>
+            <span class="kpi-pill">25% fewer incidents</span>
+          </div>
+        </article>
+
+        <article class="card case-card">
+          <div class="case-header">
+            <p class="eyebrow">Case Study 02</p>
+            <h3>Schedule adherence & governance in security services</h3>
+          </div>
+          <p>
+            At GardaWorld, shaped product vision and delivery roadmap for scheduling, aligning five
+            leadership stakeholders on priorities and acceptance criteria. Enhanced issue and risk
+            governance, improving schedule adherence by 20% and reducing service disruptions by 15%.
+          </p>
+          <div class="kpi-list">
+            <span class="kpi-pill">20% better adherence</span>
+            <span class="kpi-pill">15% fewer disruptions</span>
+            <span class="kpi-pill">Multi‑stakeholder alignment</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BACKGROUND -->
+  <section id="background" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Background</p>
+        <h2>Education and experience.</h2>
+        <p class="section-subtitle">
+          Cross‑functional roles across product delivery, project coordination, and business analysis.
+        </p>
+      </div>
+      <div class="background-grid">
+        <div class="card timeline-card">
+          <h3>Education</h3>
+          <div class="timeline-item">
+            <h4>Mohawk College, Hamilton, Ontario</h4>
+            <p>Post Graduate Certificate in Business Analysis</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Fleming College, Peterborough, Ontario</h4>
+            <p>Post Graduate Certificate in Project Management</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Gujarat University, Ahmedabad, Gujarat</h4>
+            <p>Bachelor of Commerce</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Courses</h4>
             <p>
-              I translate business needs into executable plans—defining scope, building schedules,
-              tracking RAID/action logs, facilitating stakeholder alignment, and delivering clear status reporting.
+              Project Management, Business Analysis, Strategic Planning, Finance Management, Data Analytics
             </p>
           </div>
+        </div>
 
-          <div class="card">
-            <h3>Highlights</h3>
+        <div class="card timeline-card">
+          <h3>Experience</h3>
+
+          <div class="timeline-item">
+            <h4>GardaWorld</h4>
+            <p>Scheduling Coordinator (Jan 2025 – May 2025)</p>
             <ul>
-              <li>Coordinated 70+ IT/healthcare projects with consistent on-time delivery.</li>
-              <li>Reduced retrieval costs by 15% and improved abstraction efficiency by 30% (HEDIS program).</li>
-              <li>Improved data retrieval accuracy by 30% through process optimization and controls.</li>
-              <li>Built dashboards and reporting artifacts to increase leadership visibility by ~30%.</li>
+              <li>Shaped product vision and roadmap to improve schedule adherence by 20%.</li>
+              <li>Aligned 5 leadership stakeholders on priorities, dependencies, and acceptance criteria.</li>
+              <li>Reduced service disruptions by 15% via structured issue and risk governance.</li>
+              <li>Documented change procedures, improving compliance outcomes by 20%.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Burlington Economic Development</h4>
+            <p>Business Analyst (Apr 2024 – Jun 2024)</p>
+            <ul>
+              <li>Defined initiative scope and success metrics, improving delivery clarity by 20%.</li>
+              <li>Consolidated progress, risks, and KPIs, increasing leadership visibility by 30%.</li>
+              <li>Formalized documentation controls, enhancing audit readiness by 15%.</li>
+              <li>Shaped value‑driven initiatives, improving approval outcomes by 30%.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h4>9 seriesINC</h4>
+            <p>Project Manager (Aug 2022 – Sep 2022)</p>
+            <ul>
+              <li>Owned delivery backlogs, achieving 100% milestone completion.</li>
+              <li>Improved visibility and communication by 25% with structured plans and reports.</li>
+              <li>Improved delivery flow by 20% by resolving trade‑offs and maintaining backlog health.</li>
+              <li>Reduced delivery slippage by 20% through RAID and escalation frameworks.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Advantmed LLC</h4>
+            <p>Project Coordinator (Jan 2018 – Jul 2022)</p>
+            <ul>
+              <li>Led product delivery across 70+ initiatives with 95% on‑time outcomes.</li>
+              <li>Improved delivery alignment by 20% by translating client pain points into backlogs.</li>
+              <li>Improved resolution outcomes by 20% via customer‑facing workflow enhancements.</li>
+              <li>Reduced operational incidents by 25% through structured risk and compliance management.</li>
             </ul>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section alt">
-      <div class="container">
-        <h2>Skills</h2>
-        <p class="lead">A balanced toolkit across delivery, analysis, and reporting.</p>
-
-        <div class="grid-4">
-          <div class="card">
-            <h3>Project Delivery</h3>
-            <ul>
-              <li>Agile / Waterfall / Hybrid</li>
-              <li>Schedules & milestones</li>
-              <li>RAID & governance</li>
-              <li>Change facilitation</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Business Analysis</h3>
-            <ul>
-              <li>Requirements (BRD/user stories)</li>
-              <li>Process mapping</li>
-              <li>Stakeholder workshops</li>
-              <li>UAT coordination</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Tools</h3>
-            <ul>
-              <li>Jira / Asana</li>
-              <li>MS Project</li>
-              <li>Power BI</li>
-              <li>Excel (advanced)</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Domains</h3>
-            <ul>
-              <li>Healthcare (HIPAA/PHIPA)</li>
-              <li>Digital transformation</li>
-              <li>Operations optimization</li>
-              <li>Client engagement</li>
-            </ul>
-          </div>
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Certifications</p>
+        <h2>Credibility backed by industry credentials.</h2>
+        <p class="section-subtitle">
+          Certifications across project management, Agile delivery, and analytics.
+        </p>
+      </div>
+      <div class="cert-grid">
+        <div class="card cert-card">
+          <h3>Project Management Professional (PMP) – PMI</h3>
+          <p>
+            Demonstrates advanced project planning, execution, and leadership capabilities across complex delivery environments.
+          </p>
+        </div>
+        <div class="card cert-card">
+          <h3>Certified Scrum Master (CSM) – Scrum Alliance</h3>
+          <p>
+            Enables effective Agile ceremonies, backlog refinement, and Scrum team facilitation for iterative delivery.
+          </p>
+        </div>
+        <div class="card cert-card">
+          <h3>Lean Six Sigma Green Belt (LSSGB) – KPMG</h3>
+          <p>
+            Focused on process improvement, waste reduction, and data‑driven optimization of end‑to‑end workflows.
+          </p>
+        </div>
+        <div class="card cert-card">
+          <h3>Business Intelligence Analyst – IBM</h3>
+          <p>
+            Trained in data analysis and visualization techniques to support data‑driven decision making.
+          </p>
+        </div>
+        <div class="card cert-card">
+          <h3>Enterprise Design Thinking Practitioner – IBM</h3>
+          <p>
+            Applies human‑centered design practices to shape solutions around user and stakeholder needs.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- CASE STUDIES -->
-    <section id="case-studies" class="section">
-      <div class="container">
-        <h2>Case Studies</h2>
-        <p class="lead">Selected projects with measurable outcomes.</p>
-
-        <div class="case-metrics">
-          <div class="case-metric">
-            <h4>Delivery consistency</h4>
-            <p>Improved on-time execution through clearer priorities, dependencies, and follow-ups.</p>
-          </div>
-          <div class="case-metric">
-            <h4>Process improvement</h4>
-            <p>Reduced delays via workflow redesign, SOPs, and stronger governance routines.</p>
-          </div>
-          <div class="case-metric">
-            <h4>Data quality & reporting</h4>
-            <p>Enhanced leadership visibility with dashboards, KPIs, and executive-ready updates.</p>
-          </div>
-        </div>
-
-        <div class="cases">
-          <article class="case card">
-            <div class="case-top">
-              <span class="tag">Case Study 01</span>
-              <h3>HEDIS Medical Record Retrieval & Abstraction Optimization</h3>
-              <p>
-                Coordinated cross-functional teams (18–21) and streamlined retrieval + abstraction workflows
-                to improve speed, accuracy, and compliance.
-              </p>
-            </div>
-            <div class="case-bottom">
-              <div class="chips">
-                <span class="chip">15% cost reduction</span>
-                <span class="chip">30% efficiency gain</span>
-                <span class="chip">Compliance-focused</span>
-              </div>
-              <div class="stack">Agile • Waterfall • Hybrid • RAID • SOPs</div>
-            </div>
-          </article>
-
-          <article class="case card">
-            <div class="case-top">
-              <span class="tag">Case Study 02</span>
-              <h3>RADV / HCC Portal Configuration & Delivery Governance</h3>
-              <p>
-                Supported configuration and delivery governance for risk adjustment programs—improving coding accuracy,
-                retrieval speed, and operational control through structured tracking and coordination.
-              </p>
-            </div>
-            <div class="case-bottom">
-              <div class="chips">
-                <span class="chip">28–35% accuracy lift</span>
-                <span class="chip">20–22% speed gain</span>
-                <span class="chip">Lower rework</span>
-              </div>
-              <div class="stack">Jira • SDLC support • UAT • Action logs</div>
-            </div>
-          </article>
-
-          <article class="case card">
-            <div class="case-top">
-              <span class="tag">Case Study 03</span>
-              <h3>Public Sector Analysis & Reporting (Burlington Economic Development)</h3>
-              <p>
-                Built decision-ready reports and dashboards to improve stakeholder visibility,
-                support investment decisions, and standardize reporting.
-              </p>
-            </div>
-            <div class="case-bottom">
-              <div class="chips">
-                <span class="chip">~30% visibility lift</span>
-                <span class="chip">Client-ready reporting</span>
-                <span class="chip">KPI dashboards</span>
-              </div>
-              <div class="stack">Power BI • Excel • Stakeholder reporting</div>
-            </div>
-          </article>
+  <!-- CONTACT -->
+  <section id="contact" class="section contact section-alt">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something impactful.</h2>
+        <p class="section-subtitle">
+          Available for product ownership, project delivery, and change enablement roles.
+        </p>
+        <div class="contact-actions">
+          <a class="btn" href="mailto:vishalboruah.work@gmail.com">Email Me</a>
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/vishal-boruah-pmp%C2%AE-csm%C2%AE-lssgb%E2%84%A2-679b66158/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
-    </section>
-
-    <!-- BACKGROUND -->
-    <section id="background" class="section alt">
-      <div class="container">
-        <h2>Background</h2>
-        <p class="lead">Education and experience.</p>
-
-        <div class="two-col">
-          <div class="card">
-            <h3>Education</h3>
-            <ul>
-              <li>Post Graduate Certificate — Business Analysis (Mohawk College)</li>
-              <li>Post Graduate Certificate — Project Management (Fleming College)</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Experience (highlights)</h3>
-            <ul>
-              <li><b>GardaWorld</b> — Scheduling Coordinator (Jan 2025 – May 2025)</li>
-              <li><b>Burlington Economic Development</b> — Business Analyst Intern (Apr 2024 – Jun 2024)</li>
-              <li><b>Advantmed LLC</b> — Project Coordinator (Jul 2019 – Jul 2022)</li>
-            </ul>
-          </div>
+      <div class="card contact-card">
+        <div class="contact-item">
+          <span class="contact-label">Mobile</span>
+          <span class="contact-value">+1 (249) 688‑0587</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">E-mail</span>
+          <span class="contact-value">vishalboruah.work@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">linkedin.com/in/vishal-boruah-pmp®-csm®-lssgb™-679b66158</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Hamilton, Ontario · Open to relocation within Canada</span>
         </div>
       </div>
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section">
-      <div class="container">
-        <h2>Certifications</h2>
-        <p class="lead">Credibility backed by hands-on delivery.</p>
-
-        <div class="grid-3">
-          <div class="card">
-            <h3>PMP</h3>
-            <p>Project Management Professional (PMP)</p>
-          </div>
-          <div class="card">
-            <h3>CSM</h3>
-            <p>Certified ScrumMaster</p>
-          </div>
-          <div class="card">
-            <h3>Lean Six Sigma</h3>
-            <p>Green Belt</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section alt">
-      <div class="container">
-        <h2>Contact</h2>
-        <p class="lead">Let’s build something outcome-driven.</p>
-
-        <div class="contact card">
-          <div>
-            <p><b>Email:</b> <a href="mailto:vishalboruah.work@gmail.com">vishalboruah.work@gmail.com</a></p>
-            <p><b>Mobile:</b> <a href="tel:+12496880587">+1 (249) 688-0587</a></p>
-            <p><b>LinkedIn:</b> <a href="#" id="linkedinLink" rel="noopener">Add your LinkedIn URL</a></p>
-          </div>
-
-          <form class="mini-form" onsubmit="return false;">
-            <label>
-              Quick message
-              <textarea id="msg" rows="4" placeholder="Hi Vishal, I'd like to connect about..."></textarea>
-            </label>
-            <button class="btn primary" id="copyBtn">Copy message</button>
-            <p class="hint">Tip: paste into email/LinkedIn.</p>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <p>© <span id="year"></span> Vishal Boruah • Built on GitHub Pages</p>
-      </div>
-    </footer>
-  </main>
-
-  <script src="script.js"></script>
+    </div>
+  </section>
+</main>
 </body>
 </html>
