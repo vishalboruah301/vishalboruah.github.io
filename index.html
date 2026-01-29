@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Vishal Boruah | Product & Project Delivery</title>
+  <title>Vishal Boruah | Product And Project managenment portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
-      --bg: #060b10;
-      --bg-alt: #0b1520;
-      --accent: #00c896;
-      --accent-soft: rgba(0, 200, 150, 0.12);
-      --text: #f7f7ff;
-      --muted: #9aa4b2;
-      --border: #1a2533;
-      --card: #0d1722;
-      --danger: #ff3b6a;
-      --shadow-soft: 0 18px 45px rgba(0,0,0,0.75);
+      --bg: #f4f7fb;
+      --bg-alt: #ffffff;
+      --accent: #0ea5e9; /* sky blue */
+      --accent-soft: rgba(14, 165, 233, 0.07);
+      --text: #0f172a;
+      --muted: #6b7280;
+      --border: #d4d8e1;
+      --card: #ffffff;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.12);
       --radius-lg: 18px;
       --radius-md: 12px;
       --radius-pill: 999px;
@@ -32,7 +31,7 @@
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
         "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top, #18263a 0, #060b10 52%, #02040a 100%);
+      background: radial-gradient(circle at top, #e0f2fe 0, #f4f7fb 40%, #e5e7eb 100%);
       color: var(--text);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
@@ -72,10 +71,10 @@
     /* Left hero card */
 
     .hero-card {
-      background: linear-gradient(145deg, #0d1722, #050a12 52%, #05070e);
+      background: radial-gradient(circle at top left, #e0f2fe 0, #ffffff 55%);
       border-radius: 24px;
       padding: 22px 22px 20px;
-      border: 1px solid rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
       box-shadow: var(--shadow-soft);
       position: relative;
       overflow: hidden;
@@ -95,9 +94,9 @@
       gap: 8px;
       padding: 4px 12px;
       border-radius: var(--radius-pill);
-      background: rgba(6, 18, 30, 0.84);
-      border: 1px solid rgba(120, 149, 180, 0.4);
-      color: var(--muted);
+      background: #e5f3ff;
+      border: 1px solid #bfdbfe;
+      color: #1f2933;
       font-size: 11px;
       letter-spacing: 0.03em;
       text-transform: uppercase;
@@ -107,19 +106,19 @@
       width: 8px;
       height: 8px;
       border-radius: 999px;
-      background: var(--accent);
-      box-shadow: 0 0 12px rgba(0, 200, 150, 0.8);
+      background: #22c55e;
+      box-shadow: 0 0 10px rgba(34, 197, 94, 0.7);
     }
 
     .pill-badge {
       padding: 4px 11px;
       border-radius: var(--radius-pill);
-      border: 1px solid rgba(255,255,255,0.06);
-      background: radial-gradient(circle at 0 0, rgba(0,200,150,0.32), transparent 56%);
+      border: 1px solid #bfdbfe;
+      background: radial-gradient(circle at 0 0, rgba(14, 165, 233, 0.25), transparent 56%);
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.12em;
-      color: var(--muted);
+      color: #1f2937;
     }
 
     .hero-heading {
@@ -134,7 +133,7 @@
     }
 
     .hero-heading h1 span {
-      background: linear-gradient(120deg, #f7f7ff, #b6c0ff);
+      background: linear-gradient(120deg, #0f172a, #0ea5e9);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
@@ -147,7 +146,7 @@
     }
 
     .hero-subtitle strong {
-      color: #e4ecff;
+      color: #111827;
       font-weight: 600;
     }
 
@@ -159,10 +158,10 @@
     }
 
     .metric {
-      background: radial-gradient(circle at top, #1a2233 0, #050a12 64%);
+      background: #f9fafb;
       border-radius: 16px;
       padding: 10px 11px;
-      border: 1px solid rgba(255,255,255,0.04);
+      border: 1px solid #e5e7eb;
     }
 
     .metric-label {
@@ -177,11 +176,12 @@
       font-size: 16px;
       font-weight: 600;
       letter-spacing: 0.03em;
+      color: #0f172a;
     }
 
     .metric-hint {
       font-size: 10px;
-      color: #8f9bb0;
+      color: #6b7280;
       margin-top: 2px;
     }
 
@@ -191,6 +191,7 @@
       align-items: center;
       margin-top: 14px;
       gap: 16px;
+      flex-wrap: wrap;
     }
 
     .hero-links {
@@ -218,27 +219,27 @@
     }
 
     .btn-primary {
-      background: linear-gradient(135deg, #00c896, #28f0c1);
-      color: #041013;
-      border-color: rgba(0,0,0,0.6);
-      box-shadow: 0 12px 30px rgba(0, 200, 150, 0.35);
+      background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+      color: #f9fafb;
+      border-color: rgba(15, 23, 42, 0.2);
+      box-shadow: 0 12px 30px rgba(14, 165, 233, 0.35);
     }
 
     .btn-primary:hover {
       transform: translateY(-1px);
-      box-shadow: 0 16px 45px rgba(0, 200, 150, 0.45);
+      box-shadow: 0 16px 45px rgba(14, 165, 233, 0.45);
     }
 
     .btn-ghost {
-      background: rgba(9, 17, 28, 0.9);
-      border-color: rgba(255,255,255,0.08);
-      color: var(--muted);
+      background: #eff6ff;
+      border-color: #bfdbfe;
+      color: #1f2937;
     }
 
     .btn-ghost:hover {
-      background: rgba(19, 29, 43, 0.9);
-      border-color: rgba(255,255,255,0.16);
-      color: #e6edff;
+      background: #dbeafe;
+      border-color: #93c5fd;
+      color: #111827;
     }
 
     .hero-meta {
@@ -248,16 +249,17 @@
     }
 
     .hero-meta span {
-      color: #e4ecff;
+      color: #0f172a;
+      font-weight: 600;
     }
 
     /* Right nav / about card */
 
     .side-card {
-      background: linear-gradient(150deg, #050a12, #0d1722 64%);
+      background: radial-gradient(circle at top left, #e0f2fe 0, #ffffff 55%);
       border-radius: 24px;
       padding: 18px 18px 16px;
-      border: 1px solid rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
       box-shadow: var(--shadow-soft);
     }
 
@@ -267,6 +269,7 @@
       align-items: center;
       gap: 12px;
       margin-bottom: 14px;
+      flex-wrap: wrap;
     }
 
     .nav-brand {
@@ -280,6 +283,7 @@
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
+      color: #0f172a;
     }
 
     .nav-title {
@@ -311,23 +315,23 @@
     }
 
     .nav-link:hover {
-      color: #e6edff;
-      border-color: rgba(255,255,255,0.12);
-      background: rgba(9,17,28,0.9);
+      color: #0f172a;
+      border-color: #bfdbfe;
+      background: #eff6ff;
       transform: translateY(-1px);
     }
 
     .nav-link.active {
-      border-color: rgba(0,200,150,0.7);
-      color: #eafffb;
-      background: linear-gradient(135deg, rgba(0,200,150,0.18), rgba(0,200,150,0.04));
+      border-color: #0ea5e9;
+      color: #0f172a;
+      background: #e0f2fe;
     }
 
     .about {
       margin-top: 4px;
       border-radius: 18px;
-      border: 1px solid rgba(255,255,255,0.03);
-      background: radial-gradient(circle at top left, #182538 0, #050a12 52%);
+      border: 1px solid #e5e7eb;
+      background: #ffffff;
       padding: 12px 14px 12px;
     }
 
@@ -341,16 +345,16 @@
 
     .about-text {
       font-size: 13px;
-      color: #dfe7ff;
+      color: #111827;
     }
 
     .about-text span {
-      color: var(--accent);
+      color: #0ea5e9;
       font-weight: 600;
     }
 
     .about-text em {
-      color: #aeb9ff;
+      color: #2563eb;
       font-style: normal;
     }
 
@@ -365,12 +369,15 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 14px;
+      gap: 12px;
+      flex-wrap: wrap;
     }
 
     .section-title {
       font-size: 17px;
       letter-spacing: 0.08em;
       text-transform: uppercase;
+      color: #0f172a;
     }
 
     .section-tagline {
@@ -399,10 +406,10 @@
     }
 
     .skill-card {
-      background: linear-gradient(160deg, #050a12, #10192a);
+      background: #ffffff;
       border-radius: 16px;
       padding: 11px 12px;
-      border: 1px solid rgba(255,255,255,0.04);
+      border: 1px solid #e5e7eb;
     }
 
     .skill-label {
@@ -415,7 +422,7 @@
 
     .skill-items {
       font-size: 12px;
-      color: #e6edff;
+      color: #111827;
     }
 
     /* Experience timeline */
@@ -429,8 +436,8 @@
       position: relative;
       padding: 11px 13px;
       border-radius: 16px;
-      background: linear-gradient(160deg, #050a12, #0f1828);
-      border: 1px solid rgba(255,255,255,0.04);
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
     }
 
     .exp-header {
@@ -439,16 +446,18 @@
       gap: 10px;
       align-items: baseline;
       margin-bottom: 6px;
+      flex-wrap: wrap;
     }
 
     .exp-role {
       font-size: 14px;
       font-weight: 600;
+      color: #0f172a;
     }
 
     .exp-org {
       font-size: 12px;
-      color: #aeb9ff;
+      color: #2563eb;
     }
 
     .exp-dates {
@@ -459,7 +468,7 @@
 
     .exp-bullets {
       font-size: 12px;
-      color: #dfe7ff;
+      color: #111827;
       margin-left: 14px;
       margin-top: 4px;
     }
@@ -478,8 +487,8 @@
     .project-card {
       border-radius: 16px;
       padding: 11px 13px;
-      background: linear-gradient(155deg, #050a12, #111b2b);
-      border: 1px solid rgba(255,255,255,0.05);
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
     }
 
     .project-title-row {
@@ -488,11 +497,13 @@
       align-items: baseline;
       gap: 8px;
       margin-bottom: 4px;
+      flex-wrap: wrap;
     }
 
     .project-title {
       font-size: 13px;
       font-weight: 600;
+      color: #0f172a;
     }
 
     .project-pill {
@@ -501,13 +512,14 @@
       letter-spacing: 0.14em;
       padding: 2px 9px;
       border-radius: var(--radius-pill);
-      border: 1px solid rgba(255,255,255,0.14);
-      color: var(--muted);
+      border: 1px solid #bfdbfe;
+      color: #1f2937;
+      background: #eff6ff;
     }
 
     .project-body {
       font-size: 12px;
-      color: #e6edff;
+      color: #111827;
       margin-bottom: 4px;
     }
 
@@ -522,7 +534,7 @@
 
     .project-links a {
       font-size: 11px;
-      color: #9fead4;
+      color: #0ea5e9;
       text-decoration: underline;
     }
 
@@ -544,18 +556,18 @@
     .cert-card {
       border-radius: 16px;
       padding: 11px 13px;
-      background: linear-gradient(165deg, #050a12, #10192a);
-      border: 1px solid rgba(255,255,255,0.04);
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
     }
 
     .edu-item {
       font-size: 12px;
-      color: #e6edff;
+      color: #111827;
       margin-bottom: 6px;
     }
 
     .edu-item strong {
-      color: #f7f7ff;
+      color: #0f172a;
     }
 
     .edu-item span {
@@ -564,12 +576,12 @@
 
     .cert-item {
       font-size: 12px;
-      color: #e6edff;
+      color: #111827;
       margin-bottom: 6px;
     }
 
     .cert-item a {
-      color: #9fead4;
+      color: #0ea5e9;
       text-decoration: underline;
     }
 
@@ -579,8 +591,8 @@
       margin-top: 18px;
       border-radius: 18px;
       padding: 13px 14px;
-      background: radial-gradient(circle at top left, #1b2638 0, #04070b 55%);
-      border: 1px solid rgba(255,255,255,0.05);
+      background: radial-gradient(circle at top left, #e0f2fe 0, #ffffff 55%);
+      border: 1px solid #bfdbfe;
       display: grid;
       grid-template-columns: 1.3fr 1fr;
       gap: 10px;
@@ -595,16 +607,16 @@
 
     .contact-main {
       font-size: 13px;
-      color: #dfe7ff;
+      color: #111827;
     }
 
     .contact-main strong {
-      color: #f7f7ff;
+      color: #0f172a;
     }
 
     .contact-list {
       font-size: 12px;
-      color: #e6edff;
+      color: #111827;
     }
 
     .contact-list div {
@@ -612,7 +624,7 @@
     }
 
     .contact-list a {
-      color: #9fead4;
+      color: #0ea5e9;
       text-decoration: underline;
     }
   </style>
@@ -635,7 +647,7 @@
         <header class="hero-heading">
           <h1>
             <span>Vishal Boruah</span><br />
-            Product delivery & change execution leader
+            Product And Project managenment portfolio
           </h1>
           <p class="hero-subtitle">
             Product Owner and project delivery professional enabling
@@ -682,7 +694,7 @@
         <nav class="nav">
           <div class="nav-brand">
             <div class="nav-name">Vishal Boruah</div>
-            <div class="nav-title">Product Owner · Project Delivery</div>
+            <div class="nav-title">Product & Project Delivery</div>
           </div>
           <div class="nav-links">
             <button class="nav-link active" onclick="scrollToId('about')">About</button>
